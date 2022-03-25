@@ -226,10 +226,10 @@ void main() {
     Menggunakan format ${ekspresi}, jika yang dipanggil berupa variable {} bisa dihilangkan. 
   */
 
-  // double a = 130.0;
-  // print('nilai ${a}');
-  // String b = 'Ricky';
-  // print('kata : ${b}');
-  // var d = "dart";
-  // print('interpolasi string dalam ${d.toUpperCase()}');
+  double a = 130.0;
+  print('nilai ${a}');
+  String b = 'Ricky';
+  print('kata : ${b}');
+  var d = "dart";
+  print('interpolasi string dalam ${d.toUpperCase()}');
 }
