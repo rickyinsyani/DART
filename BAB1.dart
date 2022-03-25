@@ -195,30 +195,30 @@ void main() {
     Dapat di isi dengan tipe int, double, bool, String. Ditulis dengan var atau dynamic.
   */
 
-  var a; // dapat ditulis dynamic a;
-  a = 1; //mengisi nilai bertipe int
-  print(a);
-  a = 3.1; //mengisi nilai bertipe double
-  print(a);
-  a = false; //mengisi nilai bertipe bool
-  print(a);
-  a = 'Dart'; //mengisi nilai bertipe String
-  print(a);
-  a = [
-    'Ricky',
-    'Insyani',
-    'Santosa',
-    'Putra',
-    'Pamungkas'
-  ]; //mengisi nilai bertipe List/ array
-  print(a); //print keseluruhan list string
-  print(a[3]); //print array index ke-3
-  a = {
-    'tags': ['saturn'],
-    'url': '//path/to/saturn.jpg'
-  }; //mengisi nilai bertipe Map, kunci dan nilai bernilai String
-  print(a); //print keseluruhan map
-  print(a['url']); //print nilai dari map a['url']
+  // var a; // dapat ditulis dynamic a;
+  // a = 1; //mengisi nilai bertipe int
+  // print(a);
+  // a = 3.1; //mengisi nilai bertipe double
+  // print(a);
+  // a = false; //mengisi nilai bertipe bool
+  // print(a);
+  // a = 'Dart'; //mengisi nilai bertipe String
+  // print(a);
+  // a = [
+  //   'Ricky',
+  //   'Insyani',
+  //   'Santosa',
+  //   'Putra',
+  //   'Pamungkas'
+  // ]; //mengisi nilai bertipe List/ array
+  // print(a); //print keseluruhan list string
+  // print(a[3]); //print array index ke-3
+  // a = {
+  //   'tags': ['saturn'],
+  //   'url': '//path/to/saturn.jpg'
+  // }; //mengisi nilai bertipe Map, kunci dan nilai bernilai String
+  // print(a); //print keseluruhan map
+  // print(a['url']); //print nilai dari map a['url']
   /*--------------------------------------------------------------------------------------------*/
 
   /*Interpolasi string/ interpolasi variable/ subtitusi variable adalah
