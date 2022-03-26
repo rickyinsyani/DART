@@ -106,19 +106,19 @@ void main() {
   // print(nama);
 
   /* contoh 2 */
-  // String input = 'dua';
-  // switch (input) {
-  //   case 'satu':
-  //     print('1');
-  //     break;
-  //   case 'dua':
-  //     print('2');
-  //     break;
-  //   case 'tiga':
-  //     print('3');
-  //     break;
-  //   default:
-  //     print('Anda memasukan input selain 1, 2 dan 3');
-  // }
+  String input = 'dua';
+  switch (input) {
+    case 'satu':
+      print('1');
+      break;
+    case 'dua':
+      print('2');
+      break;
+    case 'tiga':
+      print('3');
+      break;
+    default:
+      print('Anda memasukan input selain 1, 2 dan 3');
+  }
   /*--------------------------------------------------------------------------------------------*/
 }
