@@ -7,3 +7,7 @@ DART Programming Concept :
 - BAB2: Operator
 - BAB3: Struktur Pemilihan / Decision
 - BAB4: Struktur Perulangan / Looping
+- BAB5: Fungsi / Function
+- BAB6: Parameter Fungsi
+- BAB7: Kelas dan Objek/ Class & Object
+- BAB8: Konstruktor/ Constructor
