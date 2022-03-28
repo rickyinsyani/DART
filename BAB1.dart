@@ -193,6 +193,10 @@ void main() {
 
   /*7. Tipe Dynamic
     Dapat di isi dengan tipe int, double, bool, String. Ditulis dengan var atau dynamic.
+    Perbedaan var dan dynamic, untuk tipe var jika diawal sudah dinisialisasi sesuai tipe data yang 
+    dimasukan diawal maka selanjutnya tidak bisa di isi lagi dengan tipe yang lain.
+    Sedangkan untuk tipe dynamic masih bisa disi dengan tipe data lainwalaupun diawal sudah 
+    dinisialisasi sesuai tipe data yang spesifik.
   */
 
   // var a; // dapat ditulis dynamic a;
@@ -219,6 +223,13 @@ void main() {
   // }; //mengisi nilai bertipe Map, kunci dan nilai bernilai String
   // print(a); //print keseluruhan map
   // print(a['url']); //print nilai dari map a['url']
+
+  //contoh perbedaan var dan dynamic
+  // var coba = 10; //inisialisasi var dengan tipe int
+  // coba = 'sepuluh'; //maka tidak bisa di masukan nilai dengan tipe string
+  // dynamic test = 10; //inisialisasi dynamic dengan tipe int
+  // test = 'sepuluh'; //maka masih bisa di masukan nilai dengan tipe lainnya
+  // print(test);
   /*--------------------------------------------------------------------------------------------*/
 
   /*Interpolasi string/ interpolasi variable/ subtitusi variable adalah
