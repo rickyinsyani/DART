@@ -158,9 +158,9 @@ void main() {
   //------------- Contoh Pembuatan Objek, Konstruktor dengan nama tertentu -------------
   Point a, b; //deklarasi variable bertipe Point
 
-  //membuat objek dari kelas Point, konstruktor standard
+  //membuat objek dari kelas Point, menngunakan konstruktor standard
   a = Point();
-  //membuat objek dari kelas Point, konstruktor standard
+  //membuat objek dari kelas Point, menggunakan konstruktor dengan nama tertentu
   b = Point.konsBernama(1, 2);
 
   print('Titik a: ${a.x}, ${a.y}'); //nilai x dan y sebelum diubah
